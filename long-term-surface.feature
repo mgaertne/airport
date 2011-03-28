@@ -7,7 +7,6 @@
 | one day, one hour   | $ 12.00       |
 | one day, three hours| $ 16.00       |
 | one day, six hours  | $ 20.00       |
-| three days          | $ 30.00       |
 | six days            | $ 60.00       |
 | six days, one hour  | $ 60.00       |
 | seven days          | $ 60.00       |
