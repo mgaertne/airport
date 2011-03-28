@@ -8,6 +8,9 @@ class ParkCalcPage
   @@timeTemplate = "%sTime"
   @@amPMRadioButtonTemplate = "//input[@name='%sTimeAMPM' and @value='%s']"
 
+  @@calculateButtonIdentifier = 'Submit'
+  @@costElementLocation = "//tr[td/div[@class='SubHead'] = 'estimated Parking costs']/td/span/b"
+
   @@durationMap = {
     '30 minutes' => ['05/04/2010', '12:00', 'AM', '05/04/2010', '12:30', 'AM']
   }
@@ -40,12 +43,12 @@ class ParkCalcPage
   end
 
   def click_calculate_button_and_wait_for_page_to_load
-    @page.click 'Submit'
+    @page.click @@calculateButtonIdentifier
     @page.wait_for_page_to_load 10000
   end
 
   def get_parking_costs_from_page
-    @page.get_text "//tr[td/div[@class='SubHead'] = 'estimated Parking costs']/td/span/b"
+    @page.get_text @@costElementLocation
   end
 
 end
