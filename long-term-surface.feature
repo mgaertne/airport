@@ -16,7 +16,7 @@ Feature: Long-Term Surface Parking feature
   | one day, three hours| $ 16.00       |
   | one day, six hours  | $ 20.00       |
   | six days            | $ 60.00       |
-#  | six days, one hour  | $ 60.00       |
+  | six days, one hour  | $ 60.00       |
 #  | seven days          | $ 60.00       |
 #  | one week, two days  | $ 80.00       |
 #  | three weeks         | $ 180.00      |
