@@ -12,4 +12,4 @@ Feature: Short-Term Parking feature
   | 3 hours 30 minutes | $ 7.00        |
   | 12 hours 30 minutes| $ 24.00       |
   | 1 day 30 minutes   | $ 25.00       |
-#  | 1 day 1 hour       | $ 26.00       |
+  | 1 day 1 hour       | $ 26.00       |
