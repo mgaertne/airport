@@ -15,4 +15,4 @@ Feature: Valet Parking feature
   | 24 hours         | $ 18.00       |
   | 1 day 1 minute   | $ 36.00       |
   | 3 days           | $ 54.00       |
-#| 1 week           | $ 126.00      |
+  | 1 week           | $ 126.00      |
