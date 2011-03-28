@@ -8,7 +8,7 @@ Feature: Valet Parking feature
   Examples:
   | parking duration | parking costs |
   | 30 minutes       | $ 12.00       |
-#| 3 hours          | $ 12.00       |
+  | 3 hours          | $ 12.00       |
 #| 5 hours          | $ 12.00       |
 #| 5 hours 1 minute | $ 18.00       |
 #| 12 hours         | $ 18.00       |

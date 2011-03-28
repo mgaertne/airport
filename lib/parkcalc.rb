@@ -12,7 +12,8 @@ class ParkCalcPage
   @@costElementLocation = "//tr[td/div[@class='SubHead'] = 'estimated Parking costs']/td/span/b"
 
   @@durationMap = {
-    '30 minutes' => ['05/04/2010', '12:00', 'AM', '05/04/2010', '12:30', 'AM']
+    '30 minutes' => ['05/04/2010', '12:00', 'AM', '05/04/2010', '12:30', 'AM'],
+    '3 hours' => ['05/04/2010', '12:00', 'AM', '05/04/2010', '03:00', 'AM']
   }
   attr :page
 
