@@ -16,7 +16,7 @@ Feature: Economy Parking feature
   | one day, one hour   | $ 11.00       |
   | one day, three hours| $ 15.00       |
   | one day, five hours | $ 18.00       |
-#  | six days            | $ 54.00       |
+  | six days            | $ 54.00       |
 #  | seven days          | $ 54.00       |
 #  | one week, two days  | $ 72.00       |
 #  | three weeks         | $ 162.00      |
