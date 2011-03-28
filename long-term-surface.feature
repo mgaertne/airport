@@ -9,7 +9,7 @@ Feature: Long-Term Surface Parking feature
   | parking duration    | parking costs |
   | 30 minutes          | $ 2.00        |
   | 1 hour              | $ 2.00        |
-#  | 5 hours             | $ 10.00       |
+  | 5 hours             | $ 10.00       |
 #  | 6 hours             | $ 10.00       |
 #  | 24 hours            | $ 10.00       |
 #  | one day, one hour   | $ 12.00       |
