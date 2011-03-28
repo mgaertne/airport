@@ -8,7 +8,7 @@ Feature: Long-Term Garage Parking feature
   Examples:
   | parking duration    | parking costs |
   | 30 minutes          | $ 2.00        |
-#  | 1 hour              | $ 2.00        |
+  | 1 hour              | $ 2.00        |
 #  | 3 hours             | $ 6.00        |
 #  | 6 hours             | $ 12.00       |
 #  | 7 hours             | $ 12.00       |
