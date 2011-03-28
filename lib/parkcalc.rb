@@ -35,10 +35,17 @@ class ParkCalcPage
   end
 
   def parking_costs
+    click_calculate_button_and_wait_for_page_to_load
+    get_parking_costs_from_page
+  end
+
+  def click_calculate_button_and_wait_for_page_to_load
     @page.click 'Submit'
     @page.wait_for_page_to_load 10000
-    cost_element = @page.get_text "//tr[td/div[@class='SubHead'] = 'estimated Parking costs']/td/span/b"
-    return cost_element
+  end
+
+  def get_parking_costs_from_page
+    @page.get_text "//tr[td/div[@class='SubHead'] = 'estimated Parking costs']/td/span/b"
   end
 
 end
