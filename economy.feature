@@ -8,7 +8,7 @@ Feature: Economy Parking feature
   Examples:
   | parking duration    | parking costs |
   | 30 minutes          | $ 2.00        |
-#  | 1 hour              | $ 2.00        |
+  | 1 hour              | $ 2.00        |
 #  | 4 hours             | $ 8.00        |
 #  | 5 hours             | $ 9.00        |
 #  | 6 hours             | $ 9.00        |
