@@ -48,7 +48,7 @@ class ParkCalcPage
   end
 
   def select(parking_lot)
-    @page.select 'ParkingLot', parking_lot
+    @page.select @@lotIdentifier, parking_lot
   end
 
   def enter_parking_duration(duration)
