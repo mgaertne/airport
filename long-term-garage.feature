@@ -19,5 +19,5 @@ Feature: Long-Term Garage Parking feature
   | six days            | $ 72.00       |
   | six days, one hour  | $ 72.00       |
   | seven days          | $ 72.00       |
-#  | one week, two days  | $ 96.00       |
+  | one week, two days  | $ 96.00       |
 #  | three weeks         | $ 216.00      |
