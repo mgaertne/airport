@@ -1,0 +1,17 @@
+| parking duration    | parking costs |
+| 30 minutes          | $ 2.00        |
+| 1 hour              | $ 2.00        |
+| 3 hours             | $ 6.00        |
+| 4 hours             | $ 8.00        |
+| 5 hours             | $ 10.00       |
+| 6 hours             | $ 10.00       |
+| 24 hours            | $ 10.00       |in case it's on the same day
+| one day, one hour   | $ 12.00       |
+| one day, three hours| $ 16.00       |
+| one day, six hours  | $ 20.00       |
+| three days          | $ 30.00       |
+| six days            | $ 60.00       |
+| six days, one hour  | $ 60.00       |
+| seven days          | $ 60.00       |
+| one week, two days  | $ 80.00       |
+| three weeks         | $ 180.00      |
