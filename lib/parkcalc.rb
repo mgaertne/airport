@@ -53,11 +53,11 @@ class ParkCalcPage
 
   def enter_parking_duration(duration)
     startingDate, startingTime, startingTimeAMPM, leavingDate, leavingTime, leavingTimeAMPM = @@durationMap[duration]
-    fill_in_duration_for @@startingPrefix, startingDate, startingTime, startingTimeAMPM
-    fill_in_duration_for @@leavingPrefix, leavingDate, leavingTime, leavingTimeAMPM
+    fill_in_date_and_time_for @@startingPrefix, startingDate, startingTime, startingTimeAMPM
+    fill_in_date_and_time_for @@leavingPrefix, leavingDate, leavingTime, leavingTimeAMPM
   end
 
-  def fill_in_duration_for(formPrefix, date, time, ampm)
+  def fill_in_date_and_time_for(formPrefix, date, time, ampm)
     @page.type @@dateTemplate % formPrefix, date
     @page.type @@timeTemplate % formPrefix, time
     @page.click @@amPMRadioButtonTemplate % [ formPrefix, ampm ]
