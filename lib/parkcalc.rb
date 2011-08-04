@@ -64,11 +64,11 @@ class ParkCalcPage
   end
 
   def parking_costs
-    click_calculate_button_and_wait_for_page_to_load
+    calculate_parking_costs
     get_parking_costs_from_page
   end
 
-  def click_calculate_button_and_wait_for_page_to_load
+  def calculate_parking_costs
     @page.click @@calculateButtonIdentifier
     @page.wait_for_page_to_load 10000
   end
